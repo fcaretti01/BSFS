@@ -3,6 +3,14 @@
 ## Important
 For setup instructions, see [./tutorials/SETUP.md](SETUP.md).
 
+Next Meeting: 9 nov 2024 12:00 PM Eastern Time
+
+Zoom link
+https://mit.zoom.us/j/97497253037
+
+ID: 974 9725 3037
+
+
 
 ## Introduction
 The BSFS Quantitative Finance program introduces essential topics in quantitative finance, focusing on both foundational theory and practical applications. Key areas include:
