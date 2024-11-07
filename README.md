@@ -1,5 +1,9 @@
 # BSFS QUANT – FALL 2024 SCHEDULE
 
+## Important
+For setup instructions, see [./tutorials/SETUP.md](SETUP.md).
+
+
 ## Introduction
 The BSFS Quantitative Finance program introduces essential topics in quantitative finance, focusing on both foundational theory and practical applications. Key areas include:
 
