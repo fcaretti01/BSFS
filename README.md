@@ -1,6 +1,6 @@
 # BSFS QUANT – FALL 2024 SCHEDULE
 
-## Important
+## Announcements
 For setup instructions, see [./tutorials/SETUP.md](SETUP.md).
 
 Next Meeting: 9 nov 2024 12:00 PM Eastern Time
@@ -10,6 +10,10 @@ https://mit.zoom.us/j/97497253037
 
 ID: 974 9725 3037
 
+Link to submit feedback / questions:
+https://survey.zigpoll.com/2wvckJDJQEbjfzW8E/2wvckk3ydDJSZSjGj
+
+#
 
 
 ## Introduction
