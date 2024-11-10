@@ -128,6 +128,7 @@ class ArticleTrackerApp(QMainWindow):
 """
 
 # Run the application
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     db_manager = DatabaseManager()
