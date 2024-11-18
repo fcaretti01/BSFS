@@ -12,6 +12,7 @@ from selenium.webdriver.chrome.options import Options
 import os
 import sys
 from database_manager import DatabaseManager
+import time
 
 
 
@@ -82,6 +83,7 @@ class WebScraper:
         self._initialize_driver()
         self._navigate_to_url(url)
         self.accept_cookies()
+        time.sleep(0.5)
         return self.driver.page_source
 
     def _navigate_to_url(self, url):
@@ -387,7 +389,7 @@ if __name__ == "__main__":
     jds_url = "https://jds-online.org/journal/JDS/to-appear"
 
     # start the scraper
-    scraper = WebScraper(headless=True)
+    scraper = WebScraper(headless=False)
 
     # find the sources of jof and jpm pages
     jpm_page_source = scraper.get_page_source(jpm_url)
