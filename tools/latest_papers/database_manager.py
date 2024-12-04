@@ -97,9 +97,9 @@ class DatabaseManager:
         with sqlite3.connect(self.db_name) as conn:
             cursor = conn.cursor()
             if journal:
-                cursor.execute("SELECT journal, date, title, author, type, abstract, link FROM articles WHERE journal = ?", (journal,))
+                cursor.execute("SELECT * FROM articles WHERE journal = ? ORDER BY date DESC", (journal,))
             else:
-                cursor.execute("SELECT journal, date, title, author, type, abstract, link FROM articles")
+                cursor.execute("SELECT * link FROM articles ORDER BY date DESC")
             rows = cursor.fetchall()
             return [
                 {
